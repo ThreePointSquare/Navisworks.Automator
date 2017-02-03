@@ -79,3 +79,17 @@ C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\G
 C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.TrustInfo.xml
 C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe.manifest
 C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.application
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.config
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.pdb
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csprojResolveAssemblyReference.cache
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.g.cs
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\App.g.cs
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.cache
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.lref
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.baml
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.g.resources
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.Properties.Resources.resources
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csproj.GenerateResource.Cache
+C:\Users\19100\Git Source\Navisworks.Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.TrustInfo.xml
