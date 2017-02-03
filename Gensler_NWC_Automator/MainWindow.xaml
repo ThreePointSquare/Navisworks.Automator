@@ -1,0 +1,268 @@
+﻿<Window x:Class="Gensler_NWC_Automator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Win32="clr-namespace:Microsoft.Win32;assembly=PresentationFramework"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Gensler_NWC_Automator"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Gensler NWC Automator"
+        Width="1220"
+        Height="750"
+        MinWidth="725"
+        MinHeight="750"
+        MaxWidth="1980"
+        MaxHeight="750"
+        FontFamily="Segoe UI Light"
+        FontSize="14"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <local:NWC_ViewModel x:Key="NWC_ViewModelDataSource" d:IsDataSource="True" />
+    </Window.Resources>
+    <Grid DataContext="{Binding Source={StaticResource NWC_ViewModelDataSource}}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="461" />
+            <RowDefinition />
+            <RowDefinition Height="186" />
+            <RowDefinition Height="13" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Row="1"
+               Grid.RowSpan="4"
+               Margin="10,10,30,10"
+               Source="Resources/NWCAutomatorLogo.png"
+               Stretch="Fill" />
+        <GroupBox Grid.Row="1"
+                  Grid.Column="1"
+                  Margin="0,0,10,10"
+                  Header="Files to Process">
+            <Grid>
+                <Button x:Name="btn_LoadFileList"
+                        Width="88"
+                        Height="32"
+                        Margin="29,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Command="{Binding Command_LoadXMLFileList,
+                                          Mode=OneWay}"
+                        Content="Load" />
+                <Button x:Name="btn_SaveFileList"
+                        Width="88"
+                        Height="32"
+                        Margin="134,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Command="{Binding Command_SaveXMLFileList,
+                                          Mode=OneWay}"
+                        Content="Save" />
+                <Button x:Name="btn_AddFileList"
+                        Width="88"
+                        Height="32"
+                        Margin="237,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Command="{Binding Command_AddFiles,
+                                          Mode=OneWay}"
+                        Content="Add Files" />
+
+                <ListView x:Name="LV_FileNames"
+                          Margin="0,62,0,0"
+                          ItemsSource="{Binding Path=MyFileNames.ListRowItem}"
+                          SelectedIndex="{Binding TheSelectedIndex}">
+                    <ListView.ItemContainerStyle>
+
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="ContextMenu">
+                                <Setter.Value>
+                                    <ContextMenu DataContext="{Binding Source={StaticResource NWC_ViewModelDataSource}}">
+                                        <MenuItem Command="{Binding Command_RemoveItems, Mode=OneWay}" Header="Remove" />
+                                    </ContextMenu>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="Background" Value="Transparent" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="IsTabStop" Value="False" />
+                            <Setter Property="IsSelected" Value="{Binding SelectedItems}" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+
+                    <ListView.View>
+
+                        <GridView x:Name="GV_FileNames" Selector.IsSelected="False">
+                            <GridViewColumn Width="32" Header="">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate DataType="{x:Type local:UnitFileRow}">
+                                        <CheckBox IsChecked="{Binding Path=UnitFileSelection, Mode=TwoWay}" IsTabStop="False" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="Auto" Header="Revit Filenames">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate DataType="{x:Type local:UnitFileRow}">
+                                        <TextBlock Text="{Binding Path=UnitFileName}" TextAlignment="Left" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="350" Header="New Filename">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate DataType="{x:Type local:UnitFileRow}">
+                                        <TextBox Name="tbox_inputTextBox"
+                                                 AutoWordSelection="True"
+                                                 BorderBrush="Bisque"
+                                                 Focusable="True"
+                                                 InputMethod.IsInputMethodEnabled="True"
+                                                 IsTabStop="True"
+                                                 Text="{Binding Path=RenameUnitFileName,
+                                                                Mode=TwoWay,
+                                                                UpdateSourceTrigger=PropertyChanged}"
+                                                 TextAlignment="Left" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="350" Header="Last Modified">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate DataType="{x:Type local:UnitFileRow}">
+                                        <TextBlock Text="{Binding Path=DateFileExported}" TextAlignment="Left" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <Button x:Name="btn_CleanupList"
+                        Width="88"
+                        Height="32"
+                        Margin="404,10,0,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Command="{Binding Command_CleanupList,
+                                          Mode=OneWay,
+                                          UpdateSourceTrigger=PropertyChanged}"
+                        Content="Cleanup List" />
+
+                <Label Margin="800,25,10,368" Content="{Binding Path=MyFileNames.ProgramLastRanOn}" FontFamily="Segoe WP Black" FontSize="18" HorizontalContentAlignment="Right" />
+                <Label Margin="800,0,10,395" Content="Program Last ran on: " HorizontalContentAlignment="Right" />
+            </Grid>
+        </GroupBox>
+        <Label x:Name="lblSelected"
+               Grid.Row="1"
+               Grid.RowSpan="2"
+               Grid.Column="1"
+               Width="1069"
+               Height="33"
+               Margin="0,454,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Content="{Binding TheSelectedIndex}" />
+        <GroupBox Grid.Row="3"
+                  Grid.RowSpan="2"
+                  Grid.Column="1"
+                  Margin="0,1,10,10"
+                  Header="Process NWC">
+            <Grid>
+                <Grid>
+                    <Button x:Name="btn_LoadList"
+                            Width="213"
+                            Height="88"
+                            Margin="0,62,10,0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Command="{Binding Command_CreateNWC,
+                                              Mode=OneWay,
+                                              UpdateSourceTrigger=PropertyChanged}"
+                            Content="Create NWC" />
+                    <Button x:Name="btn_BrowseFolder"
+                            Width="40"
+                            Height="40"
+                            Margin="0,10,10,0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Command="{Binding Command_LocateFolder,
+                                              Mode=OneWay}"
+                            Content=". . ." />
+                    <CheckBox Width="253"
+                              Height="22"
+                              Margin="10,62,0,0"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Content="Simplify NWC Filenames by Renaming"
+                              IsChecked="{Binding IsSelectedRenameFiles,
+                                                  Mode=TwoWay}"
+                              IsEnabled="{Binding Path=FolderLocation.Length}" />
+                    <Label x:Name="Label_FolderLocation"
+                           Margin="10,10,903,112"
+                           Content="Work Folder Location :" />
+                    <TextBox x:Name="FileNameTextBox"
+                             Height="40"
+                             Margin="159,10,60,112"
+                             Background="WhiteSmoke"
+                             BorderBrush="Gainsboro"
+                             MaxLines="1"
+                             Text="{Binding FolderLocation,
+                                            UpdateSourceTrigger=PropertyChanged}"
+                             ToolTip="NWC Files will be moved into this Folder location." />
+                    <Label Width="3"
+                           Height="0"
+                           Margin="108,125,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Content="Label" />
+                    <CheckBox Width="253"
+                              Height="22"
+                              Margin="10,89,0,0"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Content="Move NWC files to work folder"
+                              IsChecked="{Binding IsSelectedMoveFiles,
+                                                  Mode=TwoWay}"
+                              IsEnabled="{Binding FolderLocation.Length}" />
+                </Grid>
+                <Canvas Panel.ZIndex="{Binding PanelZIndex}">
+                    <Expander Canvas.Left="6"
+                              Canvas.Top="90"
+                              Width="800"
+                              Height="68"
+                              ExpandDirection="Up"
+                              Header="Folder where Navisworks Manage is installed"
+                              IsExpanded="{Binding IsExpanderOpen,
+                                                   Mode=TwoWay,
+                                                   UpdateSourceTrigger=PropertyChanged}">
+                        <Expander.Content>
+                            <Grid Height="84">
+                                <Grid.Background>
+                                    <SolidColorBrush Opacity="1" Color="#FFE0E0E0" />
+                                </Grid.Background>
+
+                                <Grid>
+                                    <Button Width="40"
+                                            Height="40"
+                                            Margin="0,2,1,42"
+                                            HorizontalAlignment="Right"
+                                            Command="{Binding Command_NWC_ProgramPath,
+                                                              Mode=OneWay}"
+                                            Content=". . ." />
+                                </Grid>
+                                <Grid>
+                                    <TextBox Height="40"
+                                             Margin="22,2,51,42"
+                                             Background="WhiteSmoke"
+                                             BorderBrush="Gainsboro"
+                                             Text="{Binding NWC_ProgramPath,
+                                                            Mode=TwoWay,
+                                                            UpdateSourceTrigger=PropertyChanged}" />
+                                </Grid>
+                            </Grid>
+                        </Expander.Content>
+                    </Expander>
+                </Canvas>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

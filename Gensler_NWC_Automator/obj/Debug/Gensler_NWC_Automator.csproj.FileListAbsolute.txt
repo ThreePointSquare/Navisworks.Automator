@@ -1,0 +1,81 @@
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.config
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.baml
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\App.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.cache
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.g.resources
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.Properties.Resources.resources
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csproj.GenerateResource.Cache
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.pdb
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.pdb
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.config
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.pdb
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.pdb
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csprojResolveAssemblyReference.cache
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.baml
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.g.cs
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\App.g.cs
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.cache
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.g.resources
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.Properties.Resources.resources
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csproj.GenerateResource.Cache
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.lref
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.lref
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.dll
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.xml
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+U:\Settings\My Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csprojResolveAssemblyReference.cache
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\sadhikari\Documents\Visual Studio 2013\Projects\Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.config
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.pdb
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.pdb
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.dll
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.xml
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csprojResolveAssemblyReference.cache
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\App.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.cache
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.lref
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\MainWindow.baml
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.g.resources
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.Properties.Resources.resources
+U:\Settings\My Documents\Visual Studio 2013\Projects\_Gensler_NWC_Automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csproj.GenerateResource.Cache
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.config
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.pdb
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.pdb
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csprojResolveAssemblyReference.cache
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\MainWindow.g.cs
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\App.g.cs
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.cache
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator_MarkupCompile.lref
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\MainWindow.baml
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.g.resources
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.Properties.Resources.resources
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.csproj.GenerateResource.Cache
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.exe.manifest
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\bin\Debug\Gensler_NWC_Automator.application
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.TrustInfo.xml
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.exe.manifest
+C:\Users\19100\Git Source\navisworks_automator\Gensler_NWC_Automator\obj\Debug\Gensler_NWC_Automator.application
